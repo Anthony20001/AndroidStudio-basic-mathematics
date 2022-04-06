@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">suma</string>
+    <string name="empty_input">Ingrese un número</string>
+    <string name="empty_input2">Ingrese un número</string>
+    <string name="err_data">Ha ocurrido un Error</string>
 </resources>
