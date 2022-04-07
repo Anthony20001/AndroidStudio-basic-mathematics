@@ -1,33 +1,33 @@
 package com.example.suma;
 
 interface Operations{
-    double sum(double num1, double num2);
-    double subtraction(double num1, double num2);
-    double multiplication(double num1, double num2);
-    double division(double num1, double num2);
+    String sum(double num1, double num2);
+    String subtraction(double num1, double num2);
+    String multiplication(double num1, double num2);
+    String division(double num1, double num2);
 }
 
 final public class BasicOperations implements Operations{
     
     double result;
 
-    public double sum(double num1, double num2){
+    public String sum(double num1, double num2){
         result = num1 + num2;
-        return result;
+        return String.valueOf(num1 + " + " + num2 + " = " + result);
     }
 
-    public double subtraction(double num1, double num2){
+    public String subtraction(double num1, double num2){
         double result = num1 - num2;
-        return result;
+        return String.valueOf(num1 + " - " + num2 + " = " + result);
     }
 
-    public double multiplication(double num1, double num2){
+    public String multiplication(double num1, double num2){
         double result = num1 * num2;
-        return result;
+        return String.valueOf(num1 + " x " + num2 + " = " + result);
     }
 
-    public double division(double num1, double num2){
+    public String division(double num1, double num2){
         double result = num1/num2;
-        return result;
+        return String.valueOf(num1 + " / " + num2 + " = " + result);
     }
 }

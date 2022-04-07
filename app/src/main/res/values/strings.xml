@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name">suma</string>
+    <string name="app_name">Suma 2 números</string>
     <string name="empty_input">Ingrese un número</string>
     <string name="empty_input2">Ingrese un número</string>
     <string name="err_data">Ha ocurrido un Error</string>
+    <string name="err_div0">No se puede dividir por cero</string>
 </resources>
